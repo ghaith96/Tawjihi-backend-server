@@ -1,5 +1,5 @@
 # Tawjihi Backend Server
-The RESTful API to be utilized by the Android Tawjihi Application.
+The RESTful API to be utilized by my [Tawjihi Application](https://github.com/ghaith96/Tawjihi-Android-App) project.
 
 ---
 **Search**
