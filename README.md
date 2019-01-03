@@ -57,8 +57,9 @@ The RESTful API to be utilized by the Android Tawjihi Application.
 ----
 
 Calculate different statistical information
-about give user.
-Such info includes its overall Rank in that year.
+about a given user.
+Such info includes its overall rank in that year
+and its rank among students from the same school.
 
 * **URL**
 
@@ -85,11 +86,11 @@ Such info includes its overall Rank in that year.
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ "overAllRank" : "999",
+    **Content:** `{ "overAllRank" : "99999",
                     "branchRank" : "999",
-                    "schoolRank" : "999",
-                    "Branch" : "999",
-                    "regionRank" : "999"
+                    "schoolRank" : "9",
+                    "Branch" : "9999",
+                    "regionRank" : "99"
                     }`
  
 * **Sample Call:**
