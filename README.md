@@ -2,6 +2,8 @@
 The RESTful API to be utilized by my [Tawjihi Application](https://github.com/ghaith96/Tawjihi-Android-App) project.
 
 ---
+# Routes
+---
 **Search**
 ----
   Queries the database.
