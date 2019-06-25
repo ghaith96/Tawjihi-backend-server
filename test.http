@@ -1,0 +1,27 @@
+@baseUrl = http://localhost:3000/api
+
+###
+GET {{baseUrl}}/getHints HTTP/1.1
+
+###
+POST {{baseUrl}}/stats HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "18012005",
+    "branch": "الأدبي",
+    "region": "رام الله",
+    "school": "ذكور رام الله الثانوية\n",
+    "year": "2017"
+}
+
+###
+POST {{baseUrl}}/search HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "احمد محمد",
+    "year": [2015,2016],
+    "branch": ["التجاري"],
+    "region": ["نابلس"]
+}
